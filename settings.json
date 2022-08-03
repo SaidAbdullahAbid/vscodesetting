@@ -1,0 +1,35 @@
+{
+  "workbench.colorTheme": "Moonlight Italic",
+  "cSpell.userWords": [
+    "csharpextensions",
+    "Darcula",
+    "jsbeautifyrc"
+  ],
+  "csharpextensions.privateMemberPrefix": "_",
+  "csharpextensions.useThisForCtorAssignments": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.cursorStyle": "line",
+  "explorer.confirmDelete": false,
+  "beautify.onSave": true,
+
+  // You can auto format any files based on the file extensions type.
+  "beautify.JSfiles": [
+      "js",
+      "json",
+      "jsbeautifyrc",
+      "jshintrc",
+      "ts"
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features", 
+    "editor.formatOnSave": true,
+  
+  },
+  "editor.fontFamily": "Hack, 'Courier New', monospace",
+  "typescript.format.enable": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features", 
+    "editor.formatOnSave": true
+  },
+}
